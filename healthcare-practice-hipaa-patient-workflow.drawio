@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T21:04:34.228Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" version="14.4.8" etag="aMTKxdVi12AWe336SXeA" type="github"><diagram id="SSoS54ry8ZdYMhagJAIk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-16T21:19:26.731Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="hqlhwxemQZYwwOChs4pY" version="14.4.8" type="github">
+  <diagram id="SSoS54ry8ZdYMhagJAIk" name="Page-1">
+    <mxGraphModel dx="3930" dy="3200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QYhbDupaITXDfX72JbQJ-1" value="&lt;h1&gt;&lt;span&gt;Healthcare HIPAA Patient Practice Automation&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;A HIPAA compliant implementation of a public-facing website for the healthcare practice, integrated with a commercial form collection and appointment management services, connected to a backend system that offers patient notifications, patient consent email automation, pharmacy order automation, patient follow-up information collection&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="630" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QYhbDupaITXDfX72JbQJ-3" value="&lt;b&gt;Jotform&lt;br&gt;&lt;/b&gt;commercial form service&lt;br&gt;HIPAA compliant" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="270" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QYhbDupaITXDfX72JbQJ-6" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="QYhbDupaITXDfX72JbQJ-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="380" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="QYhbDupaITXDfX72JbQJ-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="880" width="380" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QYhbDupaITXDfX72JbQJ-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QYhbDupaITXDfX72JbQJ-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QYhbDupaITXDfX72JbQJ-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QYhbDupaITXDfX72JbQJ-12" value="&lt;b&gt;Cogsworth&lt;/b&gt;&lt;br&gt;commercial appointment management service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="350" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QYhbDupaITXDfX72JbQJ-14" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QYhbDupaITXDfX72JbQJ-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QYhbDupaITXDfX72JbQJ-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
