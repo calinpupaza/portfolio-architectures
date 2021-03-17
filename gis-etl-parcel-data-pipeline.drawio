@@ -1,1 +1,160 @@
-<mxfile host="app.diagrams.net" modified="2021-03-17T02:40:54.411Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" version="14.4.8" etag="sBPxiAVQPFfL-nhOcXYs" type="github"><diagram id="fG4mfilmmosczaM7Qcdk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-17T17:53:50.418Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="fwWZH-C64ezh1jcFEsoZ" version="14.4.8" type="github">
+  <diagram id="fG4mfilmmosczaM7Qcdk" name="Page-1">
+    <mxGraphModel dx="2951" dy="996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-1" value="&lt;h1&gt;&lt;span&gt;GIS data&amp;nbsp;&lt;/span&gt;ETL&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;&amp;nbsp;&lt;/span&gt;system&amp;nbsp;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;A data collection system for parcel GIS data from state/county websites, consolidating into one single database, and periodic export to S3 for consumption by downstream / clients.&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="620" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="170" width="220" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-3" value="Data sources&lt;br&gt;HTTP and FTP downloads&lt;br&gt;Shapefiles, GeoJSON, KML" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="180" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-5" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#116D5B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.transfer_for_ftp_resource;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="68.21" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-6" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#277116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.http_protocol;" vertex="1" parent="1">
+          <mxGeometry x="80" y="350" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-7" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#277116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.http_protocol;" vertex="1" parent="1">
+          <mxGeometry x="165.9" y="350" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-8" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#116D5B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.transfer_for_ftp_resource;" vertex="1" parent="1">
+          <mxGeometry x="161.8" y="260" width="68.21" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-9" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeWidth=1;perimeterSpacing=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="170" width="660" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-15" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#277116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.http_protocol;" vertex="1" parent="1">
+          <mxGeometry x="80" y="425" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-16" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#277116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.http_protocol;" vertex="1" parent="1">
+          <mxGeometry x="165.9" y="425" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-17" value="Raw datafiles storage&lt;br&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;Amazon S3&lt;/span&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="510" y="180" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-23" value="Postgres POSTGIS Amazon RDS Aurora Serverless DB" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.rds;" vertex="1" parent="1">
+          <mxGeometry x="667" y="382.5" width="103" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-40" value="IAM Cross account&lt;br&gt;authorization" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WzQwdtlZfrfVEQlYWAmg-26" target="WzQwdtlZfrfVEQlYWAmg-27">
+          <mxGeometry x="-0.2037" y="20" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="596" />
+              <mxPoint x="1060" y="600" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-26" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/group-customers-team-contacts-family-128.png;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="540" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-27" value="Exported Results&lt;br&gt;Amazon S3" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="820" y="550" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-28" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="490" y="350" width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-18" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="WzQwdtlZfrfVEQlYWAmg-28">
+          <mxGeometry width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-19" value="Python Importer&lt;br&gt;Lambda&lt;br&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda_function;" vertex="1" parent="WzQwdtlZfrfVEQlYWAmg-28">
+          <mxGeometry x="30" y="100" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-21" value="SQL Importer fleet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WzQwdtlZfrfVEQlYWAmg-28">
+          <mxGeometry x="10" y="10" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-22" value="&lt;span style=&quot;font-size: 10px&quot;&gt;S3 update events triggers&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="WzQwdtlZfrfVEQlYWAmg-28">
+          <mxGeometry x="20" y="40" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-49" value="Python Importer&lt;br&gt;Lambda&lt;br&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda_function;" vertex="1" parent="WzQwdtlZfrfVEQlYWAmg-28">
+          <mxGeometry x="30" y="210" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-29" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="350" y="190" width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-10" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="WzQwdtlZfrfVEQlYWAmg-29">
+          <mxGeometry width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-11" value="Python Downloader&lt;br&gt;Lambda" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda_function;" vertex="1" parent="WzQwdtlZfrfVEQlYWAmg-29">
+          <mxGeometry x="30" y="100" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-12" value="Python Downloader&lt;br&gt;Lambda" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda_function;" vertex="1" parent="WzQwdtlZfrfVEQlYWAmg-29">
+          <mxGeometry x="30" y="200" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-13" value="Download fleet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WzQwdtlZfrfVEQlYWAmg-29">
+          <mxGeometry width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-14" value="&lt;font style=&quot;font-size: 10px&quot;&gt;cron CW events Lambda triggers&lt;/font&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="WzQwdtlZfrfVEQlYWAmg-29">
+          <mxGeometry x="15" y="30" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-32" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="680.5" y="260" width="110" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-24" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3334B9;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.attributes;" vertex="1" parent="WzQwdtlZfrfVEQlYWAmg-32">
+          <mxGeometry y="-10" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-25" value="Updates Tracker&lt;br&gt;DynamoDB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WzQwdtlZfrfVEQlYWAmg-32">
+          <mxGeometry x="-6.5" y="78" width="91" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-33" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="800" y="190" width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-34" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="WzQwdtlZfrfVEQlYWAmg-33">
+          <mxGeometry width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-35" value="Python Exporter&lt;br&gt;Lambda" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda_function;" vertex="1" parent="WzQwdtlZfrfVEQlYWAmg-33">
+          <mxGeometry x="30" y="100" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-37" value="Exporter Fleet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WzQwdtlZfrfVEQlYWAmg-33">
+          <mxGeometry x="10" y="10" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-38" value="&lt;span style=&quot;font-size: 10px&quot;&gt;DynamoDB Tracker update events triggers&lt;/span&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="WzQwdtlZfrfVEQlYWAmg-33">
+          <mxGeometry x="20" y="40" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-52" value="Python Exporter&lt;br&gt;Lambda" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda_function;" vertex="1" parent="WzQwdtlZfrfVEQlYWAmg-33">
+          <mxGeometry x="30" y="200" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-41" value="Customers&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1154" y="670" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-42" value="Download configurations (location, paths, zip,destinations) in&lt;br&gt;AWS AppConfig" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;strokeWidth=1;rotation=0;size=20;position=0.42;position2=0.5;" vertex="1" parent="1">
+          <mxGeometry x="350" y="520" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-43" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;SQL level transforms, mappings&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;AWS AppConfig&lt;/span&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;strokeWidth=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="550" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="WzQwdtlZfrfVEQlYWAmg-10" target="WzQwdtlZfrfVEQlYWAmg-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WzQwdtlZfrfVEQlYWAmg-18" target="WzQwdtlZfrfVEQlYWAmg-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WzQwdtlZfrfVEQlYWAmg-18" target="WzQwdtlZfrfVEQlYWAmg-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="WzQwdtlZfrfVEQlYWAmg-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="427" />
+              <mxPoint x="640" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="WzQwdtlZfrfVEQlYWAmg-34" target="WzQwdtlZfrfVEQlYWAmg-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WzQwdtlZfrfVEQlYWAmg-34" target="WzQwdtlZfrfVEQlYWAmg-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WzQwdtlZfrfVEQlYWAmg-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WzQwdtlZfrfVEQlYWAmg-10" target="WzQwdtlZfrfVEQlYWAmg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
